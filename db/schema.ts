@@ -1,4 +1,4 @@
-import { sqliteTable, integer, text, blob, primaryKey } from 'drizzle-orm/sqlite-core';
+import { sqliteTable, integer, text, blob } from 'drizzle-orm/sqlite-core';
 
 // cards table
 export const cards = sqliteTable('cards', {
